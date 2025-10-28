@@ -1,0 +1,31 @@
+DIGEST 5eb48bb757a47f0a254f9cf1f057f0a0
+Fmetatest
+R37:39 MetaCoq.Template.All <> <> lib
+R57:62 Coq.Strings.String <> <> lib
+R64:67 Coq.Lists.List <> <> lib
+R69:73 Coq.Strings.Ascii <> <> lib
+R75:87 Coq.Numbers.DecimalString <> <> lib
+R97:109 Coq.Lists.List ListNotations <> mod
+def 205:207 <> inc
+R214:216 Coq.Init.Datatypes <> nat ind
+binder 210:210 <> n:1
+R222:222 Coq.Init.Datatypes <> S constr
+R224:224 metatest <> n:1 var
+R305:307 metatest <> inc def
+def 378:390 <> nat_to_string
+R397:399 Coq.Init.Datatypes <> nat ind
+binder 393:393 <> n:2
+R404:409 Coq.Strings.String <> string ind
+R422:422 metatest <> n:2 var
+R446:446 Coq.Init.Datatypes <> S constr
+R457:460 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R461:473 metatest <> nat_to_string:3 def
+def 563:571 <> show_term
+R578:581 MetaCoq.Template.Ast <> term ind
+binder 574:574 <> t:5
+R586:591 Coq.Strings.String <> string ind
+R604:604 metatest <> t:5 var
+R615:618 MetaCoq.Template.Ast <> tRel constr
+R625:637 metatest <> nat_to_string def
+R645:648 MetaCoq.Template.Ast <> tVar constr
+R650:651 Coq.Init.Datatypes <> id def

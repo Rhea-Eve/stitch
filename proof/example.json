@@ -1,0 +1,5 @@
+[
+  "(verified abs (lam (x (if (>= x 0) (exist x (and (>= x 0) (or (= x x) (= x (- x))))) (exist (- x) (and (>= (- x) 0) (or (= (- x) x) (= (- x) (- x)))))))))",
+  "(verified max (lam (a (lam (b (exist (if (>= a b) a b) (and (>= (if (>= a b) a b) a) (>= (if (>= a b) a b) b))))))))",
+  "(verified min (lam (a (lam (b (exist (if (<= a b) a b) (and (<= (if (<= a b) a b) a) (<= (if (<= a b) a b) b))))))))"
+]
